@@ -1,0 +1,12 @@
+names:
+- downy-mildew
+- powdery-mildew
+- leaf-spot
+- rust
+- blight
+- root-rot
+- wilting
+- healthy
+nc: 8
+train: /content/dataset/images/train
+val: /content/dataset/images/val

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['black-spot', 'blight', 'downy-mildew', 'fungal-disease', 'healthy', 'jasmine', 'orchid', 'rose']
+
+roboflow:
+  workspace: florys-ijzit
+  project: flower-disease-aoxpb
+  version: 9
+  license: Private
+  url: https://universe.roboflow.com/florys-ijzit/flower-disease-aoxpb/dataset/9
